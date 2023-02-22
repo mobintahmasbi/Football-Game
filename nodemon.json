@@ -1,0 +1,12 @@
+{
+    "exec": "ts-node ./src/index.ts",
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules"
+    ],
+    "watch": [
+        "src/**/*",
+        "views/**/*"
+    ],
+    "ext": "ts,json,html,css"
+}

@@ -1,0 +1,9 @@
+{
+    "gameDuration": 90,
+    "teamSize": 11,
+    "maxSubstitutions": 3,
+    "timeouts": {
+      "break": 15,
+      "halfTime": 15
+    }
+  }
