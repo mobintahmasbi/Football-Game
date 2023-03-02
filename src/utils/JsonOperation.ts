@@ -1,6 +1,6 @@
 import fs from "fs";
 
-export class BaseRepository<T> {
+export default class BaseRepository<T> {
 
   private readonly dbPath: string;
 

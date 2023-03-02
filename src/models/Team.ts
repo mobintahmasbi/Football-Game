@@ -1,7 +1,7 @@
 import { IsInt, IsString, ValidateNested } from 'class-validator';
 import  Player  from './Player';
 
-export class Team {
+export default class Team {
 
 @IsString()
 name: string;
