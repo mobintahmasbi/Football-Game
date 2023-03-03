@@ -11,7 +11,7 @@ export default class BaseRepository<T> {
   async getAll(): Promise<T[]> {
 
     const data = await fs.promises.readFile(this.dbPath, "utf-8");
-    return JSON.parse(data) as T[];
+    return JSON.parse(data)["Players"] as T[];
 
 }
 
