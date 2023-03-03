@@ -1,4 +1,5 @@
 import fs from "fs";
+
 export default class ConfigurationService {
 
   private readonly configPath: string;

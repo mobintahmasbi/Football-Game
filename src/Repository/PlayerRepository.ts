@@ -5,7 +5,7 @@ class PlayerRepository extends BaseRepository<Player> {
 
     constructor(){
 
-        super("../models/data/Players.json")
+        super("./src/models/data/Players.json")
 
     }
 }
